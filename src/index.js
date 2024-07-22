@@ -1,3 +1,7 @@
+// /opt/render/project/src/index.js
+
+require('./server.js');
+
 import { fetchData } from "./fetchdata.js";
 import { showData, clearData } from "./showdata.js";
 import { handleToggle } from "./toggleTheme.js";
