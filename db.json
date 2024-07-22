@@ -1,0 +1,661 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "john",
+        "password": "john123",
+        "email": "john@example.com",
+        "blogs": [
+          {
+            "id": 1,
+            "title": "The Dawn of New Ideas",
+            "body": "The sun rises, casting its golden rays over a world brimming with possibilities. Each day brings a new opportunity to innovate, to think beyond the conventional boundaries. In this blog, we explore the realm of creativity, where ideas are not just born but nurtured into brilliance. Whether it's a new technology, a revolutionary art form, or a groundbreaking theory, the journey of innovation is filled with challenges and triumphs. Join me as we delve into stories of those who dared to dream and the impact they've made on our world.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 8,
+                "selected": false
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 7,
+                "selected": true
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 3,
+                "selected": false
+              }
+            ],
+            "comments": [
+              "Great post!",
+              "Nice content!",
+              "Inspiring!",
+              "hiii"
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Echoes of the Past",
+            "body": "History has a way of repeating itself, often teaching us invaluable lessons if we choose to listen. In this blog, we take a journey back in time, uncovering the stories that shaped our present and will influence our future. From ancient civilizations to modern movements, every event has left an indelible mark on humanity. Let's explore these echoes from the past, understanding their significance and learning how we can apply their wisdom to today's challenges.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 10
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 3
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 0
+              }
+            ],
+            "comments": [
+              "Interesting read!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "username": "eva",
+        "password": "eva123",
+        "email": "eva@example.com",
+        "blogs": [
+          {
+            "id": 1,
+            "title": "Nature's Symphony",
+            "body": "Nature, in all its splendor, orchestrates a symphony that resonates with every soul. The rustling leaves, the chirping birds, and the whispering winds create a harmonious melody that soothes and inspires. This blog is a tribute to the natural world, celebrating its beauty and the tranquility it brings. We explore the wonders of different ecosystems, the diversity of flora and fauna, and the delicate balance that sustains life. Join me as we embark on this serene journey, discovering the peace and inspiration that nature offers.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 6,
+                "selected": false
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 5,
+                "selected": false
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 1,
+                "selected": false
+              }
+            ],
+            "comments": [
+              "Great post!",
+              "Nice content!"
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Tech Innovations",
+            "body": "In an age where technology evolves at lightning speed, keeping up with the latest innovations can be a daunting task. This blog aims to demystify the world of technology, bringing you the latest advancements and breakthroughs in an easy-to-understand format. From artificial intelligence to quantum computing, we delve into the technologies that are shaping our future. Join me as we explore these exciting developments, understand their implications, and envision the future they promise.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 11,
+                "selected": false
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 3,
+                "selected": false
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 1,
+                "selected": true
+              }
+            ],
+            "comments": [
+              "Interesting read!",
+              "x"
+            ]
+          },
+          {
+            "title": "hi",
+            "body": "hi",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 0
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 0
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 0
+              }
+            ],
+            "comments": [
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "username": "alex",
+        "password": "alex123",
+        "email": "alex@example.com",
+        "blogs": [
+          {
+            "id": 1,
+            "title": "Mindful Living",
+            "body": "In our fast-paced world, finding moments of peace and mindfulness can be challenging. This blog is dedicated to the art of mindful living, exploring practices that help us stay present and centered. From meditation techniques to simple daily habits, we delve into ways to cultivate mindfulness in our lives. Discover the benefits of being in the moment, reducing stress, and enhancing overall well-being. Join me on this journey towards a more mindful and fulfilling life.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 11,
+                "selected": true
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 6,
+                "selected": false
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 5,
+                "selected": false
+              }
+            ],
+            "comments": [
+              "Very calming!",
+              "I needed this!",
+              "aaasssss"
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Health and Wellness",
+            "body": "Health is wealth, and in this blog, we explore various aspects of maintaining a healthy lifestyle. From nutrition and exercise to mental health and holistic wellness, we provide insights and tips to help you live your best life. Learn about the latest trends in health and wellness, discover new recipes, and find motivation to stay active. Let's embark on this journey towards better health together.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 12
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 6
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 1
+              }
+            ],
+            "comments": [
+              "Great advice!",
+              "Very informative!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "username": "mia",
+        "password": "mia123",
+        "email": "mia@example.com",
+        "blogs": [
+          {
+            "id": 1,
+            "title": "Artistic Expressions",
+            "body": "Art is a powerful form of expression, allowing us to convey emotions and ideas that words often cannot capture. In this blog, we celebrate the world of art in all its forms. From painting and sculpture to digital art and photography, we explore the creative processes and the artists behind these works. Discover the stories that inspire these creations and the impact they have on our culture. Join me as we dive into the vibrant world of artistic expressions.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 6
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 3
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 2
+              }
+            ],
+            "comments": [
+              "Beautiful!",
+              "Very inspiring!"
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Travel Tales",
+            "body": "Travel opens our minds and hearts to new experiences and cultures. In this blog, we share tales from our journeys around the world. From bustling cities to serene landscapes, every destination has a unique story to tell. Learn about hidden gems, travel tips, and the people we've met along the way. Let's explore the world together, one story at a time.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 9
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 5
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 3
+              }
+            ],
+            "comments": [
+              "I want to go there!",
+              "Amazing!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "username": "liam",
+        "password": "liam123",
+        "email": "liam@example.com",
+        "blogs": [
+          {
+            "id": 1,
+            "title": "Tech Trends",
+            "body": "Technology is constantly evolving, bringing with it new trends and innovations. In this blog, we keep you updated on the latest trends in the tech world. From emerging technologies to industry insights, we provide a comprehensive overview of what's new and what's next. Stay informed about the advancements that are shaping our future and how they can impact your life. Join me as we navigate the ever-changing landscape of technology.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 11
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 7
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 4
+              }
+            ],
+            "comments": [
+              "Very insightful!",
+              "Great read!",
+              "e"
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Fitness Goals",
+            "body": "Achieving your fitness goals requires dedication, motivation, and the right knowledge. In this blog, we provide you with tips, workouts, and strategies to help you achieve your fitness aspirations. Whether you're aiming to lose weight, build muscle, or improve endurance, we cover all aspects of fitness. Join us on this journey to a healthier lifestyle, where we empower you with the tools and information needed to reach your fitness goals.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 15
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 8
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 2
+              }
+            ],
+            "comments": [
+              "Motivating!",
+              "Love the workout tips!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "username": "sophie",
+        "password": "sophie123",
+        "email": "sophie@example.com",
+        "blogs": [
+          {
+            "id": 1,
+            "title": "Culinary Delights",
+            "body": "Food is not just sustenance; it's an adventure for the senses. In this blog, we explore the world of culinary arts, from gourmet recipes to street food delights. Join me as we savor flavors from around the globe, discover cooking techniques, and celebrate the joy of sharing meals with loved ones.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 8
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 3
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 1
+              }
+            ],
+            "comments": [
+              "Mouth-watering!",
+              "Can't wait to try this recipe!"
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Fashion Forward",
+            "body": "Fashion is more than just clothing; it's a form of self-expression and cultural reflection. In this blog, we explore the latest trends, iconic styles, and the stories behind fashion revolutions. From haute couture to streetwear, join me as we dive into the ever-evolving world of fashion.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 12
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 5
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 2
+              }
+            ],
+            "comments": [
+              "Love your style!",
+              "Fashion inspiration!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "username": "oliver",
+        "password": "oliver123",
+        "email": "oliver@example.com",
+        "blogs": [
+          {
+            "id": 1,
+            "title": "Space Exploration",
+            "body": "Venture into the cosmos with us as we explore the wonders of space and the mysteries beyond. From planetary discoveries to the latest in space technology, this blog covers everything about the universe that surrounds us. Join me as we embark on an interstellar journey of exploration and awe.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 21,
+                "selected": true
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 10,
+                "selected": false
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 3,
+                "selected": false
+              }
+            ],
+            "comments": [
+              "Fascinating!",
+              "Space is incredible!"
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Personal Finance",
+            "body": "Financial literacy is crucial for building a secure future. In this blog, we discuss practical tips for budgeting, investing, and achieving financial independence. Join me as we navigate the world of money management, empowering you to make informed decisions about your finances.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 15
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 6
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 1
+              }
+            ],
+            "comments": [
+              "Great financial advice!",
+              "Money matters made simple."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "username": "lily",
+        "password": "lily123",
+        "email": "lily@example.com",
+        "blogs": [
+          {
+            "id": 1,
+            "title": "Parenting Insights",
+            "body": "Raising children is both a joy and a challenge. In this blog, we share parenting tips, stories of parenthood, and advice on nurturing happy and healthy kids. Join me as we explore the journey of parenting, from the early years to adolescence, and support each other in the rewarding role of being a parent.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 18
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 7
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 2
+              }
+            ],
+            "comments": [
+              "Parenting wisdom!",
+              "Love this supportive community."
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Bookworm's Haven",
+            "body": "Books open doors to new worlds and perspectives. In this blog, we review books, discuss literary trends, and share recommendations across genres. Whether you're a lifelong reader or just starting, join me in exploring the magic of storytelling through books.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 22
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 9
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 4
+              }
+            ],
+            "comments": [
+              "Great book review!",
+              "Adding to my reading list."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "username": "jack",
+        "password": "jack123",
+        "email": "jack@example.com",
+        "blogs": [
+          {
+            "id": 1,
+            "title": "DIY Adventures",
+            "body": "Unleash your creativity with DIY projects that inspire and delight. From home decor to handmade gifts, this blog provides step-by-step guides and innovative ideas for DIY enthusiasts. Join me as we turn everyday materials into extraordinary creations.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 14
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 5
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 2
+              }
+            ],
+            "comments": [
+              "Love these DIY ideas!",
+              "Crafting inspiration!"
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Environmental Awareness",
+            "body": "Protecting our planet is everyone's responsibility. In this blog, we raise awareness about environmental issues, share sustainable living tips, and celebrate efforts to conserve nature. Join me in taking action for a greener, cleaner future.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 16
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 8
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 3
+              }
+            ],
+            "comments": [
+              "Environmental activism!",
+              "Together for a better planet."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "username": "noah",
+        "password": "noah123",
+        "email": "noah@example.com",
+        "blogs": [
+          {
+            "id": 1,
+            "title": "Pet Care Chronicles",
+            "body": "Pets bring joy and companionship into our lives. In this blog, we share tips on pet care, stories of pet adoption, and insights into animal behavior. Whether you're a pet owner or an animal lover, join me in celebrating the bond between humans and animals.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 10
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 4
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 1
+              }
+            ],
+            "comments": [
+              "Adorable pets!",
+              "Great pet care advice.",
+              "Great advice"
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Gaming Universe",
+            "body": "Enter the world of gaming, where imagination meets technology. In this blog, we explore video games, gaming culture, and the latest trends in the gaming industry. Join me as we embark on epic quests, unravel mysteries, and celebrate the art of interactive entertainment.",
+            "reactions": [
+              {
+                "type": "like",
+                "emoji": "👍",
+                "count": 25
+              },
+              {
+                "type": "heart",
+                "emoji": "❤️",
+                "count": 12
+              },
+              {
+                "type": "haha",
+                "emoji": "😄",
+                "count": 5
+              }
+            ],
+            "comments": [
+              "Level up!",
+              "Gaming community rocks!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0.2909520286728362",
+        "username": "Allen@ex.com",
+        "email": "ex",
+        "password": "ex",
+        "blogs": []
+      },
+      {
+        "id": "0.032927095716481114",
+        "username": "m",
+        "email": "m@m",
+        "password": "m",
+        "blogs": []
+      }
+    ]
+  }

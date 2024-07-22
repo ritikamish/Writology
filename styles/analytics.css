@@ -1,0 +1,49 @@
+
+
+
+.bar{
+
+    background: linear-gradient(rgba(196, 210, 243, 0.57), rgba(67, 120, 177, 0.642)) ;
+}
+
+.dark{
+
+    .bar{
+        background: linear-gradient(rgb(33, 32, 32), rgba(151, 105, 20, 0.516)) ;
+    }
+}
+
+.bars{
+    display:  flex;
+    gap: 20px;
+    align-items: end;
+    text-align: center;
+}
+
+h1.text-center{
+margin:2%;
+}
+
+body{
+    font-family: lato;
+}
+.analytics, .container{
+    align-items: baseline;
+    margin: auto !important;
+} 
+
+.analytics{
+font-size: larger;
+
+}
+.dark{
+    color: wheat !important;
+}
+
+
+@media  (max-width : 1200px) {
+    .container{
+        display: flex;
+        flex-wrap:wrap-reverse;
+    }
+}

@@ -1,0 +1,308 @@
+body {
+    font-family: lato;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #92B4EC;
+    z-index: 3;
+    padding: 14px;
+    font: inherit;
+    padding: 14px 10%;
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+
+    }
+
+    button {
+        border-radius: 5px;
+        padding: 10px 20px;
+        border: 2px solid rgba(73, 71, 71, 0.532);
+        background-color: rgba(255, 255, 255, 0.711);
+    }
+
+    h1 {
+        font-family: lato-bold;
+    }
+    input{
+        border-radius: 5pxzz;
+    }
+}
+
+.container {
+    display: grid;
+    margin: 3% auto;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+
+    .card {
+        padding: 3% 5%;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 1px;
+
+
+        .user {
+            text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 13px;
+
+            a {
+
+                text-decoration: none;
+                color: rgb(91, 89, 89);
+                font-size: calc(1.325rem + .9vw);
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            img {
+                width: calc(1.325rem + .9vw);
+                border-radius: 53%;
+            }
+        }
+
+        p {
+            font-family: lato-regular;
+            line-height: 1.9;
+            word-spacing: 1px;
+            font-size: 1em;
+        }
+
+        .divblog {
+            display: flex;
+
+        }
+
+        .reactDiv {
+
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 20px;
+
+            button {
+                background: none;
+                border: none;
+            }
+        }
+    }
+}
+
+.comment-section>.comment-list>.comment-item {
+    display: none;
+}
+
+.comment-list {
+    border: 6px saddlebrown;
+}
+
+input {
+    padding: 10px;
+    border: none;
+}
+
+.showcomment {
+    font-size: small !important;
+    color: slategrey !important;
+    text-decoration: underline;
+}
+
+.commentBox {
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    background-color: rgba(143, 195, 255, 0.51);
+}
+
+a {
+
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.dark {
+
+.search{
+    background-color: rgba(0, 0, 0, 0.554);
+    border-radius: 5px;
+}
+
+    footer {
+        color: rgba(222, 218, 214, 0.348)
+    }
+
+    header {
+        background-color: rgb(62, 60, 46) !important;
+        color: white !important;
+        input,button{
+            color:rgba(255, 255, 255, 0.503);
+        }
+        button{
+
+            background-color: rgba(16, 14, 12, 0.68);
+        }
+    }
+
+    background-color: black !important;
+
+    .card {
+        a {
+            color: #bac4d4 !important;
+        }
+        color: rgba(255, 247, 247, 0.844) !important;
+        background-color: rgba(76, 70, 70, 0.34);
+    }
+
+    h5 {
+        color: rgba(245, 218, 167, 0.821) !important;
+    }
+
+    form {
+        input {
+            background-color: rgb(22, 20, 20) !important;
+        }
+
+        button {
+            background-color: rgba(210, 178, 132, 0.278);
+            color: antiquewhite;
+        }
+    }
+
+    .container .card .reaction-container .reaction-btn {
+        color: wheat;
+    }
+
+    .user {
+        color: rgba(242, 246, 234, 0.944);
+        a {
+            color: rgba(255, 255, 255, 0.697) !important;
+        }
+    }
+
+    .commentBox {
+        border: 1px solid rgba(0, 0, 0, 0.274);
+        background-color: rgba(62, 64, 48, 0.621);
+    }
+
+    .showcomment{
+        color: rgba(225, 216, 204, 0.551) !important;
+    }
+}
+
+
+
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+@media (min-width: 300px) {
+
+    header,
+    nav {
+        flex-wrap: wrap;
+        display: flex;
+        
+    }
+header{
+    button{
+        display: none;
+    }
+
+}
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+
+
+@media (min-width: 600px) {
+    header{
+        button{
+        display: flex;
+
+        }
+    }
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+@media (min-width : 1100px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
