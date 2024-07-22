@@ -1,13 +1,13 @@
 {
   "name": "writology",
   "version": "1.0.0",
-  "description": "",
+  "description": "A web-based scheduling application",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "json-server": "^1.0.0-beta.1"
