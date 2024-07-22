@@ -1,7 +1,7 @@
-import { fetchData } from "./src/fetchdata.js";
-import { showData, clearData } from "./src/showdata.js";
-import { handleToggle } from "./src/toggleTheme.js";
-import { toggleScrollMode, loadPaginatedData, loadInfiniteData } from "./src/pagination.js";
+import { fetchData } from "./fetchdata.js";
+import { showData, clearData } from "./showdata.js";
+import { handleToggle } from "./toggleTheme.js";
+import { toggleScrollMode, loadPaginatedData, loadInfiniteData } from "./pagination.js";
 
 const urlParams = new URLSearchParams(window.location.search);
 let userId = urlParams.get('userId');

@@ -1,4 +1,5 @@
 import jsonServer from "json-server"; // Use ES module syntax
+
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
